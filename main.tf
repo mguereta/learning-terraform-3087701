@@ -28,7 +28,7 @@ resource "aws_instance" "blog" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "Learning Terraform"
+    Name = "Learning Terraform!"
   }
 }
 
